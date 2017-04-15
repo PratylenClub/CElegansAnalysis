@@ -27,6 +27,10 @@ In this [Dataset](https://docs.google.com/spreadsheets/d/1kCxOOKu1wAREa9VbBiWVVH
 ### c302
 A simple simulator for the c. elegans connectome. [c302](https://github.com/openworm/CElegansNeuroML/tree/master/CElegans/pythonScripts/c302)
 
+### Bionet
+[Bionet](https://github.com/openworm/bionet)
+> Bionet simulates a biologically inspired neural network composed of sensory neurons, interneurons, and motor neurons which can be connected in arbitrary configurations. Signals propagate through the network one synapse at a time. A network behavior is defined as a sequence of sensory-motor neuron firings.
+
 ## Functional Systems
 ### Sensory System
 > the 52 sensory neurons are extensively reciprocally and recurrently connected by both chemical and gap junction synapses. Forty-nine percent of the chemical synaptic output of sensory neurons is onto other sensory neurons, and this constitutes input to the sensory neurons that is seven times the feedback from type Ib and type Ic interneurons. [@Jarrel2012]
