@@ -10,8 +10,9 @@ Analysis of the C. Elegans connectome
 
 ## Datasets
 ### OpenWorm NeuroML
+This connectome is based in the first connectome described in [@White1986]. This dataformat include several parameters values useful in realistic simulations. Maybe we can use those values to infer a weight.
 
-
+They developed [PyOpenWorm]() a python package to manage the connectome information. *c302* makes use of this package to perform the simple simulations.
 
 ### Bentley et al. 2016
 [The Multilayer Connectome of Caenorhabditis elegans](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005283)
@@ -30,8 +31,8 @@ In this [Dataset](https://docs.google.com/spreadsheets/d/1kCxOOKu1wAREa9VbBiWVVH
 #### Touch System
 
 Neurons involved in touch response [@Chalfie1985]
-Touch sensory neurons (front)	ALML, ALMR, AVM
-Touch sensory neurons (back)	PLML, PLMR, PVM
+- Touch sensory neurons (front)	ALML, ALMR, AVM
+- Touch sensory neurons (back)	PLML, PLMR, PVM
 
 
 ### Muscle System
@@ -54,3 +55,6 @@ Touch sensory neurons (back)	PLML, PLMR, PVM
 - [Szigeti2014. OpenWorm: an open-science approach to modeling Caenorhabditis elegans](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4217485/)
 - [Sawin2014. C. elegans Locomotory Rate Is Modulated by the Environment through a Dopaminergic Pathway and by Experience through a Serotonergic Pathway](http://www.cell.com/neuron/pdf/S0896-6273(00)81199-X.pdf)
 - [Chalfie1985. The neural circuit for touch sensitivity in Caenorhabditis elegans.](http://www.jneurosci.org/content/5/4/956.long)
+- [Varshney2011. Structural Properties of the Caenorhabditis elegans Neuronal Network](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1001066)
+- [White1986. The structure of the nervous system of the nematode Caenorhabditis elegans.](https://www.ncbi.nlm.nih.gov/pubmed/22462104?dopt=abstract)
+- [Kato2015. Global Brain Dynamics Embed the Motor Command Sequence of Caenorhabditis elegans](http://www.cell.com/cell/pdf/S0092-8674(15)01196-4.pdf)
