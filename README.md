@@ -2,10 +2,10 @@
 Analysis of the C. Elegans connectome
 
 ## TODO
-- [ ] Define the strengh associated with every synapse.
+- [x] Define the strengh associated with every synapse. *c302 data*
 	- [ ] Representing this information in a heatmap where all the neurons are organized in every axes and the color is the connection.
 - [ ] Check the correlation between the communities extracted and the Neurotransmitter released by each vertex
-- [ ] Check other networks
+- [x] Check other networks
 - [ ] Did the initial project of C.Elegans robot takes into account the type of neurotransmitter?
 
 ## Datasets
@@ -23,6 +23,9 @@ In this [Dataset](https://docs.google.com/spreadsheets/d/1kCxOOKu1wAREa9VbBiWVVH
 ###  CCeP
 [Database of Synaptic Connectivity of C. Elegans for computation](http://ims.dse.ibaraki.ac.jp/ccep/download.html)
 
+## Tools
+### c302
+A simple simulator for the c. elegans connectome. [c302](https://github.com/openworm/CElegansNeuroML/tree/master/CElegans/pythonScripts/c302)
 
 ## Functional Systems
 ### Sensory System
@@ -36,6 +39,7 @@ Neurons involved in touch response [@Chalfie1985]
 
 
 ### Muscle System
+Check [@Kato2015] and this [c302 Script](https://github.com/openworm/CElegansNeuroML/blob/master/CElegans/pythonScripts/c302/c302_Kato.py)
 
 ## Behaviour
 >  For example, C. elegans adjusts its rate of locomotion in the presence of food (Sawin et al., 2000). This behavioral adaptation is achieved through a dopaminergic neural circuit (Sawin et al., 2000; Omura et al., 2012). Moreover C. elegans expresses over 250 different neuropeptides, but for most of them little is known about how they affect the physiology of neurons and other cells (Li and Kim, 2008). [@Szigeti2014]
